@@ -4,11 +4,6 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 // @ts-ignore
 import {DefaultComponent} from "./component/DefaultComponent/DefaultComponent";
 
-
-interface AppProps {
-    DefaultLayout: React.ComponentType | null
-}
-
 function App() {
 
     return (
@@ -20,6 +15,8 @@ function App() {
                     </Routes>
                 </BrowserRouter>
             </div>
+
+            <div></div>
         </div>
     );
 }
