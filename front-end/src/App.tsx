@@ -1,10 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
-import { Weavy, WyChat } from "@weavy/uikit-web";
-import {Messenger} from "./component/Messenger/Messenger";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+// @ts-ignore
 import {DefaultComponent} from "./component/DefaultComponent/DefaultComponent";
 
 
@@ -13,10 +10,6 @@ interface AppProps {
 }
 
 function App() {
-
-   /* const weavy = new Weavy();
-    weavy.url = "https://myenvironment.weavy.io";
-    weavy.tokenFactory = async (refresh) => "access_token";*/
 
     return (
         <div>
