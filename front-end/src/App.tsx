@@ -8,15 +8,11 @@ function App() {
 
     return (
         <div>
-            <div className="mx-20">
-                <BrowserRouter>
-                    <Routes>
-                        <Route path="/*" Component={DefaultComponent}></Route>
-                    </Routes>
-                </BrowserRouter>
-            </div>
-
-            <div></div>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/*" Component={DefaultComponent}></Route>
+                </Routes>
+            </BrowserRouter>
         </div>
     );
 }
